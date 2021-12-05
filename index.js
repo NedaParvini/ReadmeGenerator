@@ -17,7 +17,8 @@ const questions = [
                 if (value) { return true } else { return 'Please enter your Repo.' }},},
     {type:"input", name:"installation", message:"Please Enter installation instructions", choices:"listtype" },
     {type:"input", name:"usageinformation", message:"Please Enter Usage Information", choices:"listtype" },
-    
+    {type:"input", name:"contributionguidelines", message:"Please Enter Contribution guidelines", choices:"listtype" },
+    {type:"input", name:"testinstructions", message:"Please Enter Test Instructions", choices:"listtype" },
      
     
 ];
