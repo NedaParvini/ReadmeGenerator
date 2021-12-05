@@ -9,7 +9,7 @@ const fs = require ("fs");
 const questions = [
     {type:"input", name:"title", message:"What Is Your Project Title?", choices:"listtype" },
     {type:"input", name:"Description", message:"What Is Your Project Description?", choices:"listtype" },
-    {type:"checkbox", name:"TableofContents", message:"Select a Table of Contents", choices:["Installation","Usage","Credits","License"]}, 
+    {type:"checkbox", name:"TableofContents", message:"Select a Table of Contents", choices:["Installation instructions","Usage information","Contribution guidelines","Testinstructions","License"]}, 
     {type:"list", name:"license", message:"Choose a liscence", choices:["MIT","Apache","GPL"] },
     {type:"input",name: "github", message: "What is your GitHub Username?", validate: (value) => {
             if (value) { return true } else { return 'Please enter your username.' }},},
