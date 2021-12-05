@@ -1,7 +1,9 @@
-# Title Alaki
-            dkkdjfkdjgr.lgjelfoldfnvk.hrgihdnfkv
-            undefined
-            undefined(https://github.com/NedaParvini)
-            undefined(https://github.com/Generator 777777777/Generator 777777777)
-            The license is Apache
+# Title:Title koofti
+            Description:kfjdkjgvaojg
+            Table of Content:undefined
+            GitHub:(https://github.com/NedaParvini)
+            Repository:(https://github.com/NedaParvini/This PRJ)
+            Installation instructions:sfjlsdjfsdjfdfsleofje
+            Usage information:Usade is sdkf
+            The license is GPL
             

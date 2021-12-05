@@ -2,6 +2,7 @@
 
 const CheckboxPrompt = require("inquirer/lib/prompts/checkbox");
 
+
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   return `The license is ${license}`;
@@ -15,15 +16,17 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-function x () {}
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-            ${data.Description}
-            ${(data.TableofContent)}
-            ${data.name}(https://github.com/${data.github})
-            ${data.name}(https://github.com/${data.github}/${data.repo})
+  return `# Title:${data.title}
+          #  Description:${data.Description}
+          # Table of Content:${(data.TableofContent)}
+          #  GitHub:(https://github.com/${data.github})
+          #  Repository:(https://github.com/${data.github}/${data.repo})
+          #  Installation instructions:${data.installation}
+          #  Usage information:${data.usageinformation}
             ${renderLicenseBadge(data.license)}
             
 `;
