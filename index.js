@@ -1,4 +1,5 @@
-const generateMarkdown= require ("./utils/generateMarkdown") 
+const util = require('util');
+const generateMarkdown= require ('./utils/generateMarkdown'); 
 // TODO: Include packages needed for this application
 const inquirer = require ("inquirer");
 const fs = require ("fs");
@@ -49,7 +50,7 @@ function init() {
     // Use user feedback for... whatever!!
     var generate = generateMarkdown(answers);
     console.log(generate);
-    writeToFile("README.md", generate);
+    writeToFile("README.md", generateMarkdown(data));
   })
   .catch((error) => {
     if (error.isTtyError) {
