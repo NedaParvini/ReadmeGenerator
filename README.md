@@ -1,16 +1,16 @@
-# Title:ReadMe File Generator
-          ##Description
-          This VS codes generate READ ME FILE
-          ##Table of Content
+# Title:ReadMe File Generator 
+          **Description**
+          This is a ReadMe Generator codes
+          **Table of Content**
           undefined
           * [Installation instructions](#Installation instructions)
           * [Usage information](#Usage information)
           * [Contribution guidelines](#Contribution guidelines)
           * Testinstructions](#Testinstructions)
           * [License](#license)
-          ##GitHub
+          **GitHub**
           (https://github.com/NedaParvini)
-          ##Repository
+          **Repository**
           (https://github.com/NedaParvini/ReadMeGenerator)
           ##Installation instructions
           N/A
@@ -21,5 +21,5 @@
           ##Testinstructions
           N/A
           ##License
-          The license is Apache
+          The license is MIT
           ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
