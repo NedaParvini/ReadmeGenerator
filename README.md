@@ -1,6 +1,6 @@
 # Title:ReadMe File Generator
           **Description**This VS codes generates READ ME FILES
-          **Table of Content**undefined
+          Table of Content**undefined
           # GitHub(https://github.com/NedaParvini)
           # Repository(https://github.com/NedaParvini/ReadMeGenerator)
           # Installation instructionsN/A
