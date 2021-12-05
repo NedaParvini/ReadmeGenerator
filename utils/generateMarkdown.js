@@ -1,8 +1,10 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# Title:${data.title}
+  return `
+        # Title:${data.title}
           **Description**
           ${data.description}
+          ${renderLicenseBadge(data.license)}
           ## Table of Contents
           * [Installation instructions](#Installation instructions)
           * [Usage information](#Usage information)
@@ -18,8 +20,8 @@ function generateMarkdown(data) {
           ##Testinstructions
           ${data.testinstructions}
           ##License
-          ${renderLicenseBadge(data.license)}
-          ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+          Copyright (c) [${data.github}](https://github.com/${data.github}). All rights reserved.
+          Licensed under the ${data.license} license.  
           Any additional questions or feed back, feel free to [send an email](mailto:${data.email}). ## License
           **GitHub**
           (https://github.com/${data.github})
