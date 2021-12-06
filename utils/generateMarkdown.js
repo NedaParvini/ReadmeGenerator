@@ -49,8 +49,6 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 
-
-
-
 module.exports = generateMarkdown;
+
 

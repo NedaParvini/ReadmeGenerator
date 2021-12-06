@@ -1,6 +1,5 @@
-
-
 // TODO: Include packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
@@ -13,17 +12,17 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
   {
-    type: 'input',
-    name: 'title',
-    message: 'What is your project title?',
+    type: "input",
+    name: "title",
+    message: "What is your project title?",
     validate: (value) => {
         if (value) { return true } else { return 'Please enter your project title.' }
     },
 },
 {
-  type: 'input',
-  name: 'description',
-  message: 'What is the description of your project?',
+  type: "input",
+  name: "description",
+  message: "What is the description of your project?",
   validate: (value) => {
       if (value) { return true } else { return 'Please enter description.' }
   },
@@ -80,9 +79,9 @@ const questions = [
     }, 
    },
   {
-    type: 'input',
-    name: 'email',
-    message: 'What is your email address?',
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
     validate: (value) => {
         if (emailValidator.validate(value)) {
             return true
@@ -119,7 +118,7 @@ function init() {
       // Use user feedback for... whatever!!
       var generate = generateMarkdown(answers);
       console.log(generate);
-      writeToFile("README.md", generateMarkdown(data));
+      writeToFile("README.md", generate);
     })
     .catch((error) => {
       if (error.isTtyError) {

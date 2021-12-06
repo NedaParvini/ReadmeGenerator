@@ -1,26 +1,28 @@
 
-# Title:ReadMe File Generator 
+        # Title:ReadMe Generator
           **Description**
-          This is a ReadMe Generator codes
-          **Table of Content**
-          undefined
+          This Project generates README file. The user prompted to answer the questions regarding the README file.
+          The license is MIT
+          ## Table of Contents
           * [Installation instructions](#Installation instructions)
           * [Usage information](#Usage information)
           * [Contribution guidelines](#Contribution guidelines)
           * Testinstructions](#Testinstructions)
           * [License](#license)
-          **GitHub**
-          (https://github.com/NedaParvini)
-          **Repository**
-          (https://github.com/NedaParvini/ReadMeGenerator)
           ##Installation instructions
-          N/A
+          Node.js, npm
           ##Usage information
-          N/A
+          Command line application
           ##Contribution guidelines
-          N/A
+          N/Z
           ##Testinstructions
           N/A
           ##License
-          The license is MIT
-          ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+          Copyright (c) [NedaParvini](https://github.com/NedaParvini). All rights reserved.
+          Licensed under the MIT license.  
+          Any additional questions or feed back, feel free to [send an email](mailto:info@nedaparvini.com). ## License
+          **GitHub**
+          (https://github.com/NedaParvini)
+          **Repository**
+          (https://github.com/NedaParvini/ReadmeGenerator)
+          
